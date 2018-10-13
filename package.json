@@ -1,0 +1,12 @@
+{
+  "name": "@simplej/rapid-plop",
+  "version": "1.0.0",
+  "description": "Plop generators for apps scaffolded with @simplej/rapid-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "James Meyers",
+  "license": "ISC"
+}
