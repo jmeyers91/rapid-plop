@@ -1,6 +1,6 @@
 {
   "name": "@simplej/rapid-plop",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Plop generators for apps scaffolded with @simplej/rapid-cli",
   "main": "index.js",
   "scripts": {
