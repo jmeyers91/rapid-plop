@@ -1,0 +1,10 @@
+
+module.exports = rapid => {
+  rapid.io
+  {{#if path}}
+    .of({{path}})
+  {{/if}}
+    .on('connect', socket => {
+      // socket.on('echo', data => socket.emit(data));
+    });
+};

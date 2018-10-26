@@ -68,6 +68,25 @@ module.exports = plop => {
 			path: 'routes/{{camelCase name}}.router.js',
 			templateFile: templatePath('router.hbs'),
 		}],
+	});
+	
+	plop.setGenerator('channel', {
+		description: 'Create a socket.io namespace',
+		prompts: [{
+			type: 'input',
+			name: 'name',
+			message: 'channel name'
+		},
+		{
+			type: 'input',
+			name: 'path',
+			message: 'namespace path'
+		}],
+		actions: [{
+			type: 'add',
+			path: 'channels/{{camelCase name}}.channel.js',
+			templateFile: templatePath('channel.hbs'),
+		}],
   });
 
   plop.setGenerator('seed', {
