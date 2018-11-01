@@ -1,16 +1,14 @@
 
 module.exports = rapid => {
-  rapid.action(
-    '{{camelCase name}}', 
-    {
+  rapid.action('{{camelCase name}}')
+    .schema({
       type: 'object',
       required: [],
       properties: {
 
       },
-    }, 
-    async props => {
+    })
+    .receiver(async props => {
 
-    }
-  );
+    });
 };

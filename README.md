@@ -32,3 +32,7 @@ module.exports = plop => {
 * hook - A rapid lifecycle hook listener
 * table - A database migration for creating a table
 * migration - A blank database migration
+
+## License
+
+Rapid is [MIT licensed](./LICENSE).
